@@ -1,0 +1,10 @@
+{
+  "name": "exercises",
+  "private": true,
+  "scripts": {
+    "start": "vite"
+  },
+  "dependencies": {
+    "mapbox-gl": "^2.14.1"
+  }
+}
