@@ -53,6 +53,8 @@ export default {
       locationButtonText: "Zoom to current location",
     }
   },
+  // 1. Add a mounted hook to the App component. It needs to assign the result of the `fetchDailyForecast` function
+  // to the `forecast` data property.
   methods: {
     getCurrentLocation() {
       return new Promise((resolve, reject) => {

@@ -67,5 +67,13 @@ export default {
 <StackBlitzEmbed id="vue-qkhhjw" file="src/components/PersonCard.vue" />
 
 ---
+layout: center
+---
 
 # 🏋️ Exercise 4 🏋️
+
+1. Configure this component to accept the forecast as a prop
+2. Write a validator for the data structure
+3. Set a default value for the forecast (e.g. an empty array)
+4. Move this data to the App.vue component
+5. pass the forecast to this component as a prop

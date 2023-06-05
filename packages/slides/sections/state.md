@@ -39,4 +39,15 @@ export default {
 
 ---
 
+# State / Reactivity
+
+<StackBlitzEmbed id="js-ksb7hb" file="src/components/App.vue" />
+
+---
+layout: center
+---
+
 # 🏋️ Exercise 2 🏋️
+
+1. Add a data property called forecast
+2. Replace the static content with dynamic content from the forecast data property

@@ -77,5 +77,9 @@ export default {
 - TypeScript support, which improves IDE integrations and code assistance, and code debugging
 
 ---
+layout: center
+---
 
 # 🏋️ Exercise 10 🏋️
+
+1. Convert the `App` and `ForecastListItem` to use the Composition API

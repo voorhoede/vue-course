@@ -3,7 +3,8 @@
     <h3 class="forecast-title">{{ name }}</h3>
     <div class="forecast-emoji">{{ emoji }}</div>
     <p class="forecast-text">High: {{ high }}°C</p>
-    <p class="forecast-text">Avg: {{ averageTemperature }}°C</p>
+    <!-- 2. Render the averageTemperature computed property -->
+    <p class="forecast-text">Avg: °C</p>
     <p class="forecast-text">Low: {{ low }}°C</p>
   </li>
 </template>
@@ -28,11 +29,7 @@ export default {
       required: true,
     },
   },
-  computed: {
-    averageTemperature() {
-      return ((this.high + this.low) / 2).toFixed(1);
-    },
-  }
+  // 1. Add a computed property called `averageTemperature` that returns the average of `high` and `low`
 };
 </script>
 

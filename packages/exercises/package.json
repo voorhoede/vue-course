@@ -5,6 +5,7 @@
     "start": "vite"
   },
   "dependencies": {
-    "mapbox-gl": "^2.14.1"
+    "mapbox-gl": "^2.14.1",
+    "vite-plugin-list-directory-contents": "^1.4.5"
   }
 }

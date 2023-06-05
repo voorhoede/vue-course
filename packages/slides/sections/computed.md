@@ -8,9 +8,9 @@ layout: center
 
 # Computed / What are computed properties?
 
-- Computed properties are functions that return a value.
-- Computed properties are cached based on their dependencies.
-- Computed properties are used to calculate a value based on other data.
+- Functions that return a value.
+- The caching of computed properties is based on their dependencies.
+- Calculating a value based on other data is a common use case for computed properties.
 
 ---
 
@@ -45,5 +45,10 @@ export default {
 <StackBlitzEmbed id="vue-gy4gsk" file="src/App.vue" />
 
 ---
+layout: center
+---
 
 # 🏋️ Exercise 8 🏋️
+
+1. Add a computed property called `averageTemperature` that returns the average of `high` and `low`
+2. Render the `averageTemperature` computed property

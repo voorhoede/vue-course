@@ -6,8 +6,7 @@
 import mapboxgl, { Map, Popup } from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 
-mapboxgl.accessToken =
-  "pk.eyJ1IjoiaW9taWMiLCJhIjoiY2thZ3g5NDJvMGF4eDJzcWI3NnpraTlybCJ9.2NLC1oDwtP6lBWIsAfEu1A";
+mapboxgl.accessToken = import.meta.env.VITE_MAPBOX_ACCESS_TOKEN;
 
 export default {
   props: {

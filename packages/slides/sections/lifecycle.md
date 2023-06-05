@@ -21,4 +21,10 @@ layout: center
 
 <img src="/images/lifecycle.png" class="h-11/12" />
 
-# 🏋️ Exercise 8 🏋️
+---
+layout: center
+---
+
+# 🏋️ Exercise 9 🏋️
+
+1. Add a mounted hook to the App component. It needs to assign the result of the `fetchDailyForecast` function to the `forecast` data property.

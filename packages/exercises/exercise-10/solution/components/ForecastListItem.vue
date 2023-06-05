@@ -9,6 +9,8 @@
 </template>
 
 <script>
+import { computed } from 'vue';
+
 export default {
   props: {
     name: {
@@ -28,14 +30,17 @@ export default {
       required: true,
     },
   },
-  computed: {
-    averageTemperature() {
-      return ((this.high + this.low) / 2).toFixed(1);
-    },
-  }
+  setup(props) {
+    const averageTemperature = computed(() => {
+      return ((props.high + props.low) / 2).toFixed(1);
+    });
+
+    return {
+      averageTemperature,
+    };
+  },
 };
 </script>
-
 <style>
 .forecast-item {
   display: flex;

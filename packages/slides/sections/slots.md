@@ -76,7 +76,7 @@ layout: center
 </template>
 ```
 
-```vue {all|4,5,6,7}
+```vue {all|4,5,6,7,8}
 <!-- App.vue -->
 <template>
   <MyApp>

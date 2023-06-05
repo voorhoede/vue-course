@@ -1,4 +1,6 @@
 <template>
+  <!-- 1. Create components from the HTML below -->
+  <!-- 3. Use the components in this template -->
   <header>
     <h1>WeatherMap</h1>
   </header>
@@ -76,6 +78,9 @@
 </template>
 
 <script>
+/**
+ * 2. Import the components here
+ */
 export default {};
 </script>
 

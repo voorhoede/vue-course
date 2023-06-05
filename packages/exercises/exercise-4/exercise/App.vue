@@ -6,7 +6,7 @@
       <h2>Forecast</h2>
       <p>Here is the forecast for the next 7 days.</p>
 
-      <!-- 4. pass the forecast to this component as a prop -->
+      <!-- 5. pass the forecast to this component as a prop -->
       <ForecastList />
     </section>
 

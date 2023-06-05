@@ -29,5 +29,11 @@ export default {
 </script>
 ```
 ---
+layout: center
+---
 
 # 🏋️ Exercise 6 🏋️
+
+1. Add a watcher for the currentLocation prop.
+2. Use the flyToLocation method to fly to the current location.
+

@@ -3,7 +3,7 @@ import App from "./App.vue";
 
 createApp(App).mount("#app");
 
-mapboxgl.accessToken = ""
+mapboxgl.accessToken = import.meta.env.VITE_MAPBOX_ACCESS_TOKEN
 
 const mapElement = document.getElementById("map");
 const mapConfig = {
