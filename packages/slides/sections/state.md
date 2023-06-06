@@ -39,6 +39,35 @@ export default {
 
 ---
 
+# State / Data binding
+
+```vue
+<template>
+    <form>
+        <p>Name: {{ name }}</p>
+        <input v-model="name"></input>
+    </form>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      name: 'Jane',
+    }
+  },
+}
+</script>
+```
+
+---
+
+# State / Data binding example
+
+<StackBlitzEmbed id="vue-ccyfif" file="src/components/App.vue" />
+
+---
+
 # State / Reactivity
 
 <StackBlitzEmbed id="js-ksb7hb" file="src/components/App.vue" />

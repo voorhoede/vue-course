@@ -17,7 +17,7 @@ Building interactive web applications with Vue.js
 
 ---
 
-# Today / Topics & Exercises 
+# Today / Topics and Exercises 
 
 1. Components
 2. Data

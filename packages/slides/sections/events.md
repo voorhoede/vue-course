@@ -31,7 +31,7 @@ layout: center
 layout: center
 ---
 
-# 🏋️ Exercise 5Exercise 5 🏋️
+# 🏋️ Exercise  5 🏋️
 
 1. Change the text of the button to "Loading..."
 2. Get the current location
