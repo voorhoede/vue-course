@@ -19,7 +19,7 @@
         location.
       </p>
 
-      <AppMap />
+      <AppMap :current-location="currentLocation" />
 
       <button id="location-button" @click="handleCurrentLocationClick">{{ locationButtonText }}</button>
     </section>
@@ -93,6 +93,7 @@ export default {
         }
       ],
       locationButtonText: "Zoom to current location",
+      currentLocation: null,
     }
   },
   methods: {
@@ -109,7 +110,7 @@ export default {
       try {
         const location = await this.getCurrentLocation();
 
-        console.log(location)
+        this.currentLocation = location;
       } catch (error) {
         alert("Unable to get current location. Please try again later.");
       }

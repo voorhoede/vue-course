@@ -17,6 +17,16 @@ layout: center
 <template>
   <button @click="increment">Increment</button>
 </template>
+
+<script>
+export default {
+  ...
+  methods: {
+    increment() {
+      this.count++;
+    }
+  }
+}
 ```
 
 ---
@@ -25,7 +35,7 @@ layout: center
 
 - `@` is a shorthand for `v-on:`
 - `@click` - Event name
-- `@click.prevent` - Event modifier
+- `@click.prevent` - Event modifier ([demo](https://stackblitz.com/edit/vue-z8edtn?file=src%2FApp.vue))
 
 ---
 layout: center

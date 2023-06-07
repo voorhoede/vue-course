@@ -28,6 +28,13 @@ export default {
 }
 </script>
 ```
+
+---
+
+# Vuetify / Watch Example
+
+<StackBlitzEmbed id="vue-vatlyu" file="src/components/App.vue" />
+
 ---
 layout: center
 ---

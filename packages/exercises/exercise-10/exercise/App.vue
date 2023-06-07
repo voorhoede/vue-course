@@ -19,7 +19,7 @@
         location.
       </p>
 
-      <AppMap />
+      <AppMap :current-location="currentLocation" />
 
       <button id="location-button" @click="handleCurrentLocationClick">{{ locationButtonText }}</button>
     </section>
